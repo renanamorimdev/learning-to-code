@@ -1,17 +1,17 @@
 programa{
   /*
-		Ex014: Programa que leia o valor total das compras de um cliente e mostre uma mensagem especial caso as compras sejam acima de R$500. Nessa situação, ele ainda vai ganhar 10% de desconto. 
-		Autor: Renan Amorim
-	*/
+    Ex014: Programa que leia o valor total das compras de um cliente e mostre uma mensagem especial caso as compras sejam acima de R$500. Nessa situação, ele ainda vai ganhar 10% de desconto. 
+    Autor: Renan Amorim
+  */
   inclua biblioteca Matematica
 	funcao inicio()
 	{
-		// Declaração de Variáveis
+    // Declaração de Variáveis
     real total, desc
-		// Entrada de Dados
+    // Entrada de Dados
     escreva("\nQual foi o valor total da compra? R$")
     leia(total)
-		// Saída dos Resultados
+    // Saída dos Resultados
     escreva("------------ RESULTADO ------------")
     escreva("\nVocê comprou R$" + Matematica.arredondar(total, 2) + " na nossa loja. OBRIGADO!")
 
